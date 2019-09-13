@@ -7,7 +7,7 @@ import sys
 # authenticating as vk.com/hhhinternational
 def auth():
 	print('authenticating...')
-	vk = vk_api.VkApi(token = '1da4a98aae443f082ea97f04900461030b803e4d16e0c0afb34c0cc09e65fca7a821e8eb6fc04a623e8b4')
+	vk = vk_api.VkApi(token = '???')
 	vk.auth()
 	print('authentication successful')
 	return vk
